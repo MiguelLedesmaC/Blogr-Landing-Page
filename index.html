@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <main class="container">
+    <!-- Header -->
+    <header class="header">
+      <img class="header__background">
+      <div class="header__logo-menu">
+        <img id="logo" src="images/logo.svg" alt="logo Blogr">
+        <img id="hamburguer" src="images/icon-hamburger.svg" alt="hamburguer">
+        <!-- <img id='close' src="images/icon-close.svg" alt="close"> -->
+      </div>
+      
+  
+      <nav class="header__nav">
+
+        <!-- Nav Mobile-->
+          <div class="header__nav__container">
+            <ul id="product" class="header__nav__product">
+              <li class="header__nav__product__title header__links">Product  
+                <picture id="arrow">
+                  <source  srcset="images/icon-arrow-dark.svg" media="(max-width: 1440px)">
+                  <source  srcset="images/icon-arrow-light.svg" media="(min-width: 1440px)">
+                  <img class=""  src="images/icon-arrow-dark.svg" alt="arrow">
+                </picture>
+              </li>
+                  <ul class="header__nav__product__links product__link links">
+                    <li><a href="#">Overview</a> </li>
+                    <li><a href="#">Pricing</a> </li>
+                    <li><a href="#">Marketplace</a> </li>
+                    <li><a href="#">Features</a> </li>
+                    <li><a href="#">Integrations</a> </li>
+                  </ul>
+
+              <li id="company" class="header__links">Company
+                <picture id="arrow">
+                  <source srcset="images/icon-arrow-dark.svg" media="(max-width: 1440px)">
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 1440px)">
+                  <img class="" src="images/icon-arrow-dark.svg" alt="arrow">
+                </picture>
+              </li>
+                  <ul class="header__nav__company__links company__link links">
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Team</a> </li>
+                    <li><a href="#">Blog</a> </li>
+                    <li><a href="#">Careers</a> </li>
+                  </ul>
+
+              <li id="connect" class="header__links">Connect
+                <picture id="arrow" >
+                  <source srcset="images/icon-arrow-dark.svg" media="(max-width: 1440px)">
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 1440px)">
+                  <img class=""  src="images/icon-arrow-dark.svg" alt="arrow">
+                </picture>
+              </li>
+                  <ul class="header__nav__connect__links connect__link links">
+                    <li><a href="#">Contact</a> </li>
+                    <li><a href="#">Newsletter</a> </li>
+                    <li><a href="#">LinkedIn</a> </li>
+                  </ul>
+            </ul>
+
+            <div class="header__nav__btns">
+              <button class="header__nav__btns__login btn">Login</button>
+              <button class="header__nav__btns__sign btn">Sign Up</button>
+            </div>
+          </div>
+          <!-- End Navbar Mobile  -->
+
+
+
+
+          <!-- Navbar desktop -->
+          <div class="navbar__desktop">
+            <ul id="product" class="navbar__desktop__container">
+              <li id="product" class="navbar__desktop__title ">Product
+                <picture id="arrow">
+                  <source srcset="images/icon-arrow-dark.svg" media="(max-width: 1440px)">
+                  <source  srcset="images/icon-arrow-light.svg" media="(min-width: 1440px)">
+                  <img  src="images/icon-arrow-light.svg" alt="arrow">
+                </picture>
+              </li>
+                  <ul class="navbar__product__items links ">
+                    <li><a href="#">Overview</a> </li>
+                    <li><a href="#">Pricing</a> </li>
+                    <li><a href="#">Marketplace</a> </li>
+                    <li><a href="#">Features</a> </li>
+                    <li><a href="#">Integrations</a> </li>
+                  </ul>
+
+              <li id="company" class="navbar__desktop__title">Company
+                <picture id="arrow">
+                  <source srcset="images/icon-arrow-dark.svg" media="(max-width: 1440px)">
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 1440px)">
+                  <img  src="images/icon-arrow-light.svg" alt="arrow">
+                </picture>
+              </li>
+                  <ul class="navbar__company__items  links">
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Team</a> </li>
+                    <li><a href="#">Blog</a> </li>
+                    <li><a href="#">Careers</a> </li>
+                  </ul>
+
+              <li id="connect" class="navbar__desktop__title">Connect
+                <picture id="arrow">
+                  <source srcset="images/icon-arrow-dark.svg" media="(max-width: 1440px)">
+                  <source srcset="images/icon-arrow-light.svg" media="(min-width: 1440px)">
+                  <img  src="images/icon-arrow-light.svg" alt="arrow">
+                </picture>
+              </li>
+                  <ul class="navbar__connect__items links">
+                    <li><a href="#">Contact</a> </li>
+                    <li><a href="#">Newsletter</a> </li>
+                    <li><a href="#">LinkedIn</a> </li>
+                  </ul>
+            </ul>
+
+            <div class="navbar__desktop__btns">
+              <button class="navbar__desktop__login btn">Login</button>
+              <button class="navbar__desktop__sign btn">Sign Up</button>
+            </div>
+          </div>
+          <!-- Navbar Desktop End -->
+          
+      </nav>
+
+<!-- Title Page -->
+      <div class="header__description">
+        <h1 class="header__description__title">A modern publishing platform</h1>
+        <p class="header__description__paragraph">Grow your audience and build your online brand</p>
+        <div class="header__description__btn">
+          <button class="btn header__description__btn__start">Start for Free</button>
+          <button class="btn header__description__btn__learn">Learn More</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section Future -->
+    <section class="future">
+      <h2 class="future__title">Designed for the future</h2>
+    
+      <!-- Image Future -->
+      <picture class="future__images">
+          <source id="img-future" srcset="images/illustration-editor-mobile.svg" media="(max-width: 1440px)">
+          <source height="940px" srcset="images/illustration-editor-desktop.svg" media="(min-width: 1440px)">
+          <img src="images/illustration-editor-mobile.svg" alt="editor">
+      </picture>
+
+      <article class="future__intro article ">
+        <h2 class="future__intro__title article-title">Introducing an extensible editor</h2>
+        <p class="future__intro__paragraph article-paragraph">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+      </article>
+
+      <article class="future__management article">
+        <h2 class="future__management__title article-title">Robust content management</h2>
+        <p class="future__management__paragraph article-paragraph">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control</p>
+      </article>
+      <img  id="phones-img" src="images/illustration-phones.svg" alt="Phones Image">
+    </section>
+
+    <!-- Section Mobile -->
+    <section class="mobile">
+      <picture class="mobile__images">
+        
+        <img id="circles-img" src="images/bg-pattern-circles.svg" alt="">
+      </picture>
+      
+      <article class="mobile__infrastructure article">
+        <div class="mobile__infrastructure__description">
+          <h2 class="mobile__infrastructure__description__title">State of the Art Infrastructure</h2>
+          <p class="mobile__infrastructure__description__paragraph article-paragraph">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      </article>
+    </section>
+
+
+    <!-- Section Laptop -->
+    <section class="laptop">
+      <picture class="laptop__images">
+          <source srcset="images/illustration-laptop-mobile.svg" media="(max-width: 1440px)">
+          <source srcset="images/illustration-laptop-desktop.svg" media="(min-width: 1440px)">
+          <img src="images/illustration-laptop-mobile.svg" alt="Laptop Image">
+      </picture>
+
+      <article class=" laptop__free article">
+        <h2 class="laptop__free__title article-title">Free, open, simple</h2>
+        <p class="laptop__free__paragraph article-paragraph">Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+      </article>
+
+      <article class=" laptop__tool article">
+        <h2 class="laptop__tool__title article-title">Powerful tooling</h2>
+        <p class="laptop__tool__paragraph article-paragraph">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+      </article>
+    </section>
+    
+  </main>
+
+  
+  
+<script src="main.js"></script>
+</body>
+<footer class="footer">
+  <img src="images/logo.svg" alt="logo Blogr">
+<div class="footer__links__container">
+
+      <div class="footer__contact product">
+        <h3 class="footer__contact__title">Product</h3>
+        <ul class="footer__contact__links">
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact company">
+        <h3 class="footer__contact__title">Company</h3>
+        <ul class="footer__contact__links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact connect">
+        <h3 class="footer__contact__title connect__title">Connect</h3>
+        <ul class="footer__contact__links">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+</div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://github.com/Xcorpi0">Xcorpio</a>.
+  </div>
+</footer>
+</html>
