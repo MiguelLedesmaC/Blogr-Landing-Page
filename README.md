@@ -15,7 +15,7 @@ Para esta landing page utilicé a parte de html y javascript, usé SASS como pre
 * ✔️[Portofolio](https://miguelledesmac.github.io/Portofolio-Oficial/)
 
 ## Ver ejemplo en vivo
-* ✔️[Demo](https://miguelledesmac.github.io/Portofolio-Oficial/)
+* ✔️[Demo]( https://miguelledesmac.github.io/Blogr-Landing-Page/)
 
 ## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en la demo
