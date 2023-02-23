@@ -11,11 +11,11 @@ Para esta landing page utilicé a parte de html y javascript, usé SASS como pre
 ## Autor
 **Miguel Ledesma**
 
-*✔️[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
-*✔️[Portofolio](https://miguelledesmac.github.io/Portofolio-Oficial/)
+* ✔️[LinkedIn](https://www.linkedin.com/in/miguelledesmac)
+* ✔️[Portofolio](https://miguelledesmac.github.io/Portofolio-Oficial/)
 
 ## Ver ejemplo en vivo
-*✔️[Demo](ENLACEGITHUBPAGES)
+* ✔️[Demo](https://miguelledesmac.github.io/Portofolio-Oficial/)
 
 ## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en la demo
